@@ -1,0 +1,454 @@
+body {
+    background: #F6F6F6 url('images/event-background.png') repeat-x 50% 206px;
+    height: 100%;
+    overflow: hidden;
+    line-height: 20px;
+    font-family: "Yandex Sans Text Web";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 15px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+}
+
+.share-container {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100%;
+    max-width: 522px;
+    margin: 0 auto 170px;
+}
+
+.share-header {
+    text-align: center;
+    margin: 40px 0;
+}
+.share-header-hr {
+    width: 40px;
+    background-color: rgb(51, 51, 51);
+    height: 3px;
+    border: none;
+    margin: 0 auto;
+}
+.share-header-logo-text {
+    margin: 4px 0 2px;
+    color: rgb(42, 42, 42);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.share-event {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+    padding: 15px 16px 13px;
+    border-radius: 3px;
+}
+.share-event-address {
+    background-image: url(images/arrow-top.png);
+    padding-left: 30px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    line-height: 19px;
+    margin-bottom: 13px;
+    background-position-y: 2px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.share-event-text {
+    margin-bottom: 16px;
+}
+.share-event-img {
+    position: relative;
+    height: 136px;
+    overflow: hidden;
+}
+.share-event-img .slider {
+    position: absolute;
+    white-space: nowrap;
+    height: 136px;
+    font-size: 0;
+}
+.share-event-img .slider img {
+    height: 100%;
+    margin-right: 8px;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    outline: none;
+}
+.share-event-img .btn-prev, .share-event-img .btn-next {
+    width: 24px;
+    height: 44px;
+    top: 50%;
+    margin-top: -18px;
+    background-color: rgba(246, 246, 246, 0.5);
+    color: #666666;
+    font-size: 30px;
+    border-radius: 4px;
+    line-height: 39px;
+    position: absolute;
+    cursor: pointer;
+}
+.share-event-img .btn-prev {
+    left: 2px;
+}
+.share-event-img .btn-next {
+    right: 2px;
+}
+.share-comments {
+    max-width: 522px;
+    padding: 14px 16px;
+}
+.share-comment {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: -1;
+}
+.share-comment-avatar {
+    float: left;
+}
+.share-comment-user {
+    font-weight: 500;
+    margin-left: 46px;
+}
+.share-comment-text {
+    color: rgb(51, 51, 51);
+    margin-left: 46px;
+}
+.share-comment time {
+    margin-left: 10px;
+}
+.share-footer {
+    position: fixed;
+    max-width: 522px;
+    bottom: 0;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 0 100px 70px rgb(246, 246, 246);
+    -webkit-box-shadow: 0 0 100px 70px rgb(246, 246, 246);
+    -moz-box-shadow: 0 0 100px 70px rgb(246, 246, 246);
+    padding-bottom: 13px;
+}
+.share-footer-store {
+    text-align: center;
+}
+.share-footer-store-logo {
+    background-image: url(images/event-megaphones-footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+.share-footer-store-url a {
+    background-image: url(images/Download_on_the_App_Store_Badge_RU_135x40.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 147px;
+    height: 45px;
+    margin: 7px 0;
+    display: inline-block;
+}
+.share-footer-store > div {
+    display: inline-block;
+    vertical-align: top;
+}
+.share-footer-store-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 4px 12px 8px;
+    max-width: 285px;
+}
+.share-footer-ya {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    margin-top: 17px;
+}
+.share-event-footer {
+    margin-top: 20px;
+    position: relative;
+}
+.share-event-footer > div {
+    display: inline-block;
+}
+.share-event-footer-btn-share {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+.share-event-footer-user {
+    font-weight: 500;
+    margin-top: -2px;
+}
+.share-event-footer-megaphones, .share-event-footer-comment {
+    color: rgb(153, 153, 153);
+}
+.share-event-footer-megaphones,
+.share-event-footer-comment {
+    color: rgb(153, 153, 153);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 0;
+    width: 36px;
+    padding-left: 24px;
+    vertical-align: top;
+    margin-top: 10px;
+    float: right;
+}
+.share-event-footer-megaphones {
+    background-image: url(images/event-megaphones.png);
+    padding-left: 20px;
+    margin-right: 90px;
+}
+.share-event-footer-comment {
+    background-image: url(images/event-comments.png);
+}
+.share-event-footer-avatar {
+    float: left;
+    margin-right: 16px;
+}
+.share-event-footer-time, .share-comment time {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(153, 153, 153);
+}
+.share-event-footer-time {
+    display: block;
+}
+.share-event-footer-avatar img, .share-comment-avatar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 16px;
+}
+
+.share-modal {
+    display: none;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(246, 246, 246);
+    padding: 94px 115px;
+}
+.share-modal-bg {
+    position: absolute;
+    top: 206px;
+    left: 0;
+    right: 0;
+    height: 173px;
+    z-index: -1;
+    background: url('images/event-background.png') repeat-x 50% 0;
+    opacity: .2;
+}
+.share-modal-container {
+    height: 100%;
+    z-index: 1;
+}
+.share-modal-container .item {
+    display: none;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.share-modal-header {
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    right: 115px;
+    opacity: .2;
+    text-align: center;
+}
+.share-modal-header-hr {
+    width: 40px;
+    background-color: rgb(51, 51, 51);
+    height: 3px;
+    border: none;
+    margin: 0 auto;
+}
+.share-modal-header-logo-text {
+    margin: 4px 0 2px;
+    color: rgb(42, 42, 42);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.share-modal .btn-close {
+    right: 20px;
+    top: 20px;
+    height: 24px;
+    width: 24px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: transparent url('images/close-remodal-icon.png') no-repeat 0 0;
+    -webkit-background-size: 24px auto;
+    background-size: 24px auto;
+}
+.share-modal .btn-close, .share-modal .btn-prev, .share-modal .btn-next {
+    position: absolute;
+    cursor: pointer;
+}
+.share-modal .btn-prev, .share-modal .btn-next {
+    width: 20px;
+    height: 36px;
+    text-indent: -9999px;
+    transform: translate(0, -18px);
+    background: transparent url('images/nex-prev-icons.png') no-repeat 0 0;
+    -webkit-background-size: 20px auto;
+    background-size: 20px auto;
+    top: 50%;
+    margin-top: -18px;
+}
+.share-modal .btn-prev {
+    left: 23px;
+    background-position: 0 -37px;
+}
+.share-modal .btn-close, .share-modal .btn-prev, .share-modal .btn-next {
+    position: absolute;
+    cursor: pointer;
+}
+.share-modal-nav {
+    position: absolute;
+    bottom: 39px;
+    left: 115px;
+    right: 115px;
+    text-align: center;
+}
+.share-modal-nav .item {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+body.share-modal-show .share-modal, .share-modal-container .item.select {
+    display: block;
+}
+.share-modal .btn-next {
+    right: 23px;
+}
+.share-modal-nav .item.select {
+    background: #000;
+}
+@media screen and (max-width: 540px) {
+    .share-container {
+        margin: 0 10px;
+    }
+    .share-footer-store-url {
+        display: none;
+    }
+    .share-footer-ya {
+        margin-top: 6px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .share-event-footer-btn-share {
+        position: inherit;
+        margin-top: 20px;
+    }
+    .share-event-footer-megaphones {
+        margin-right: 0;
+    }
+    .share-event-footer > div {
+        display: block;
+    }
+    .share-event-footer-megaphones, .share-event-footer-comment {
+        margin-top: 16px;
+    }
+    .share-header {
+        margin: 30px 0;
+    }
+    .share-footer-store-url a {
+        margin: 5px 0 0;
+        height: 40px;
+    }
+    .share-modal {
+        padding: 94px 15px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .share-event-img .slider {
+        text-align: center;
+    }
+    .share-footer-store-text {
+        font-size: 16px;
+        margin: 0;
+    }
+    .share-footer-store-logo {
+        width: 50px;
+        height: 50px;
+    }
+    .share-modal-bg {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 376px) {
+    .share-header {
+        margin: 25px 0;
+    }
+    .share-footer-store .share-footer-store-logo {
+        display: none;
+    }
+    .share-footer-store-text {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .share-modal-header {
+        display: none;
+    }
+    .share-modal-bg {
+        background-image: none;
+    }
+    .share-modal .btn-prev, .share-modal .btn-next {
+        width: 24px;
+        height: 44px;
+        -webkit-background-size: 20px auto;
+        top: 53%;
+        margin-top: -18px;
+        background-color: rgba(246, 246, 246, 0.5);
+        color: #666666;
+        font-size: 30px;
+        border-radius: 4px;
+        line-height: 39px;
+        background-image: none;
+        text-indent: 0;
+    }
+}
+@media screen and (max-height: 550px) {
+    .share-footer {
+        position: absolute;
+        bottom: -135px;
+    }
+    .share-comments {
+        display: none;
+    }
+    body {
+        overflow: inherit;
+    }
+}
+@media screen and (max-device-width: 320px) and (orientation: portrait) {
+    .share-footer-store {
+        width: 320px;
+    }
+    .share-footer-store .share-footer-store-text {
+        display: none;
+    }
+}

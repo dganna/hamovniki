@@ -1,0 +1,232 @@
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2016 Schwartzco Inc.
+
+*/
+
+
+.YandexSansTextWeb-Bold {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansTextWeb-Thin {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansDisplayWeb-Regular {
+    font-family: "Yandex Sans Display Web";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansDisplayWeb-Light {
+    font-family: "Yandex Sans Display Web";
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansDisplayWeb-Thin {
+    font-family: "Yandex Sans Display Web";
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansDisplayWeb-Bold {
+    font-family: "Yandex Sans Display Web";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansTextWeb-Regular {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansTextWeb-Medium {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.YandexSansTextWeb-RegularItalic {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+.YandexSansDisplayWeb-RegularItalic {
+    font-family: "Yandex Sans Display Web";
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+.YandexSansTextWeb-Light {
+    font-family: "Yandex Sans Text Web";
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Bold.eot");
+    src: url("Yandex Sans Text Web-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Bold.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Bold.woff") format("woff"),
+    url("Yandex Sans Text Web-Bold.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Bold.svg#YandexSansTextWeb-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Thin.eot");
+    src: url("Yandex Sans Text Web-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Thin.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Thin.woff") format("woff"),
+    url("Yandex Sans Text Web-Thin.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Thin.svg#YandexSansTextWeb-Thin") format("svg");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Display Web";
+    src: url("Yandex Sans Display Web-Regular.eot");
+    src: url("Yandex Sans Display Web-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Display Web-Regular.woff2") format("woff2"),
+    url("Yandex Sans Display Web-Regular.woff") format("woff"),
+    url("Yandex Sans Display Web-Regular.ttf") format("truetype"),
+    url("Yandex Sans Display Web-Regular.svg#YandexSansDisplayWeb-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Display Web";
+    src: url("Yandex Sans Display Web-Light.eot");
+    src: url("Yandex Sans Display Web-Light.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Display Web-Light.woff2") format("woff2"),
+    url("Yandex Sans Display Web-Light.woff") format("woff"),
+    url("Yandex Sans Display Web-Light.ttf") format("truetype"),
+    url("Yandex Sans Display Web-Light.svg#YandexSansDisplayWeb-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Display Web";
+    src: url("Yandex Sans Display Web-Thin.eot");
+    src: url("Yandex Sans Display Web-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Display Web-Thin.woff2") format("woff2"),
+    url("Yandex Sans Display Web-Thin.woff") format("woff"),
+    url("Yandex Sans Display Web-Thin.ttf") format("truetype"),
+    url("Yandex Sans Display Web-Thin.svg#YandexSansDisplayWeb-Thin") format("svg");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Display Web";
+    src: url("Yandex Sans Display Web-Bold.eot");
+    src: url("Yandex Sans Display Web-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Display Web-Bold.woff2") format("woff2"),
+    url("Yandex Sans Display Web-Bold.woff") format("woff"),
+    url("Yandex Sans Display Web-Bold.ttf") format("truetype"),
+    url("Yandex Sans Display Web-Bold.svg#YandexSansDisplayWeb-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Regular.eot");
+    src: url("Yandex Sans Text Web-Regular.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Regular.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Regular.woff") format("woff"),
+    url("Yandex Sans Text Web-Regular.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Regular.svg#YandexSansTextWeb-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Medium.eot");
+    src: url("Yandex Sans Text Web-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Medium.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Medium.woff") format("woff"),
+    url("Yandex Sans Text Web-Medium.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Medium.svg#YandexSansTextWeb-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Regular Italic.eot");
+    src: url("Yandex Sans Text Web-Regular Italic.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Regular Italic.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Regular Italic.woff") format("woff"),
+    url("Yandex Sans Text Web-Regular Italic.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Regular Italic.svg#YandexSansTextWeb-RegularItalic") format("svg");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Display Web";
+    src: url("Yandex Sans Display Web-Regular Italic.eot");
+    src: url("Yandex Sans Display Web-Regular Italic.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Display Web-Regular Italic.woff2") format("woff2"),
+    url("Yandex Sans Display Web-Regular Italic.woff") format("woff"),
+    url("Yandex Sans Display Web-Regular Italic.ttf") format("truetype"),
+    url("Yandex Sans Display Web-Regular Italic.svg#YandexSansDisplayWeb-RegularItalic") format("svg");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Yandex Sans Text Web";
+    src: url("Yandex Sans Text Web-Light.eot");
+    src: url("Yandex Sans Text Web-Light.eot?#iefix") format("embedded-opentype"),
+    url("Yandex Sans Text Web-Light.woff2") format("woff2"),
+    url("Yandex Sans Text Web-Light.woff") format("woff"),
+    url("Yandex Sans Text Web-Light.ttf") format("truetype"),
+    url("Yandex Sans Text Web-Light.svg#YandexSansTextWeb-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
