@@ -431,6 +431,9 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
         background-image: none;
         text-indent: 0;
     }
+    .share-event-img .btn-next, .share-event-img .btn-prev {
+        display: none;
+    }
 }
 @media screen and (max-height: 550px) {
     .share-footer {
@@ -449,6 +452,11 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
         width: 320px;
     }
     .share-footer-store .share-footer-store-text {
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 640px) {
+    .share-event-img .btn-next, .share-event-img .btn-prev {
         display: none;
     }
 }
