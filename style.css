@@ -89,13 +89,13 @@ body {
     height: 44px;
     top: 50%;
     margin-top: -18px;
-    background-color: rgba(246, 246, 246, 0.5);
     color: #666666;
     font-size: 30px;
     border-radius: 4px;
     line-height: 39px;
     position: absolute;
     cursor: pointer;
+    text-shadow: 2px 0 0 #e6e4e7, -2px 0 0 #e6e4e7, 0 2px 0 #e6e4e7, 0 -2px 0 #e6e4e7, 1px 1px #e6e4e7, -1px -1px 0 #e6e4e7, 1px -1px 0 #e6e4e7, -1px 1px 0 #e6e4e7;
 }
 .share-event-img .btn-prev {
     left: 2px;
@@ -423,7 +423,7 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
         -webkit-background-size: 20px auto;
         top: 53%;
         margin-top: -18px;
-        background-color: rgba(246, 246, 246, 0.5);
+        text-shadow: 2px 0 0 #e6e4e7, -2px 0 0 #e6e4e7, 0 2px 0 #e6e4e7, 0 -2px 0 #e6e4e7, 1px 1px #e6e4e7, -1px -1px 0 #e6e4e7, 1px -1px 0 #e6e4e7, -1px 1px 0 #e6e4e7;
         color: #666666;
         font-size: 30px;
         border-radius: 4px;
@@ -433,15 +433,16 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
     }
 }
 @media screen and (max-height: 550px) {
-    .share-footer {
-        position: absolute;
-        bottom: -135px;
-    }
-    .share-comments {
-        display: none;
-    }
     body {
         overflow: inherit;
+    }
+    .share-container {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-device-width: 1000px) {
+    .share-event-img .btn-prev, .share-event-img .btn-next {
+        display: none;
     }
 }
 @media screen and (max-device-width: 320px) and (orientation: portrait) {
