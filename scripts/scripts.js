@@ -236,9 +236,39 @@ jQuery(window).load(function () {
         slider.$slider.animate({"left": left + "px"});
     });
 
+    var minHeight = $(window).height() - 80 - $('.share-header').height() -$('.share-event').height() - $('.share-footer').height();
+    if (minHeight <= 62) {
+        $('.share-comments').css({
+            'display': 'none'
+        });
+        $('.share-footer').css({
+            'position': 'relative',
+            'margin-top': '20px'
+        });
+    }
+
     $( window ).resize(function() {
-        var wHeight = $(this).height();
-        console.log(wHeight);
+        minHeight = $(window).height() - 80 - $('.share-header').height() -$('.share-event').height() -$('.share-footer').height();
+        if (minHeight <= 62) {
+            $('.share-comments').css({
+                'display': 'none'
+            });
+            $('.share-footer').css({
+                'position': 'relative',
+                'margin-top': '20px'
+            });
+        } else {
+            $('.share-comments').css({
+                'display': 'block'
+            });
+            $('.share-footer').css({
+                'position': 'fixed',
+                'margin-top': '0'
+            });
+        }
+
     });
+
+
 
 });
