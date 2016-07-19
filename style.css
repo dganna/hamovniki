@@ -175,8 +175,9 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    margin: 4px 12px 8px;
+    margin: 4px 12px 8px !important;
     max-width: 285px;
+    text-align: left;
 }
 .share-footer-ya {
     font-size: 13px;
