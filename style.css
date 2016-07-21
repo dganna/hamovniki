@@ -43,7 +43,7 @@ body {
 }
 .share-event {
     position: relative;
-    z-index: 1;
+    z-index: 11;
     background-color: #fff;
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
@@ -84,33 +84,42 @@ body {
     cursor: zoom-in;
     outline: none;
 }
+.share-event-img .slider img:last-child {
+    margin-right: 0;
+}
 .share-event-img .btn-prev, .share-event-img .btn-next {
     width: 24px;
-    height: 44px;
+    height: 24px;
     top: 50%;
-    margin-top: -18px;
-    color: #666666;
-    font-size: 30px;
-    border-radius: 4px;
-    line-height: 39px;
+    background-image: url(images/arrow2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -12px;
     position: absolute;
     cursor: pointer;
     text-shadow: 2px 0 0 #e6e4e7, -2px 0 0 #e6e4e7, 0 2px 0 #e6e4e7, 0 -2px 0 #e6e4e7, 1px 1px #e6e4e7, -1px -1px 0 #e6e4e7, 1px -1px 0 #e6e4e7, -1px 1px 0 #e6e4e7;
 }
 .share-event-img .btn-prev {
     left: 2px;
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 .share-event-img .btn-next {
     right: 2px;
+    text-align: right;
 }
 .share-comments {
     max-width: 522px;
     padding: 14px 16px;
+    background: rgba(246, 246, 246, .9);
 }
 .share-comment {
     margin-bottom: 20px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 .share-comment-avatar {
     float: left;
@@ -135,6 +144,7 @@ body {
     -webkit-box-shadow: 0 0 100px 70px rgb(246, 246, 246);
     -moz-box-shadow: 0 0 100px 70px rgb(246, 246, 246);
     padding-bottom: 13px;
+    z-index: 10;
 }
 .share-footer-store {
     text-align: center;
@@ -158,13 +168,16 @@ body {
 .share-footer-store > div {
     display: inline-block;
     vertical-align: top;
+    padding: 0;
+    margin: 0;
 }
 .share-footer-store-text {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    margin: 4px 12px 8px;
+    margin: 4px 12px 8px !important;
     max-width: 285px;
+    text-align: left;
 }
 .share-footer-ya {
     font-size: 13px;
@@ -198,7 +211,6 @@ body {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: 0;
-    width: 36px;
     padding-left: 24px;
     vertical-align: top;
     margin-top: 10px;
@@ -207,10 +219,11 @@ body {
 .share-event-footer-megaphones {
     background-image: url(images/event-megaphones.png);
     padding-left: 20px;
-    margin-right: 90px;
+    margin-right: 105px;
 }
 .share-event-footer-comment {
     background-image: url(images/event-comments.png);
+    margin-right: 15px;
 }
 .share-event-footer-avatar {
     float: left;
@@ -304,26 +317,28 @@ body {
     cursor: pointer;
 }
 .share-modal .btn-prev, .share-modal .btn-next {
-    width: 20px;
-    height: 36px;
+    width: 41px;
+    height: 48px;
     text-indent: -9999px;
     transform: translate(0, -18px);
-    background: transparent url('images/nex-prev-icons.png') no-repeat 0 0;
-    -webkit-background-size: 20px auto;
-    background-size: 20px auto;
+    background: transparent url('images/arrow2.png') no-repeat 0 0;
+    background-size: cover;
     top: 50%;
-    margin-top: -18px;
 }
 .share-modal .btn-prev {
     left: 23px;
-    background-position: 0 -37px;
+    margin-top: -15px;
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 .share-modal .btn-close, .share-modal .btn-prev, .share-modal .btn-next {
     position: absolute;
     cursor: pointer;
 }
 .share-modal-nav {
-    position: absolute;
     bottom: 39px;
     left: 115px;
     right: 115px;
@@ -417,19 +432,8 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
     .share-modal-bg {
         background-image: none;
     }
-    .share-modal .btn-prev, .share-modal .btn-next {
-        width: 24px;
-        height: 44px;
-        -webkit-background-size: 20px auto;
-        top: 53%;
-        margin-top: -18px;
-        text-shadow: 2px 0 0 #e6e4e7, -2px 0 0 #e6e4e7, 0 2px 0 #e6e4e7, 0 -2px 0 #e6e4e7, 1px 1px #e6e4e7, -1px -1px 0 #e6e4e7, 1px -1px 0 #e6e4e7, -1px 1px 0 #e6e4e7;
-        color: #666666;
-        font-size: 30px;
-        border-radius: 4px;
-        line-height: 39px;
-        background-image: none;
-        text-indent: 0;
+    .share-event-img .btn-next, .share-event-img .btn-prev {
+        display: none;
     }
 }
 @media screen and (max-height: 550px) {
@@ -437,7 +441,7 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
         overflow: inherit;
     }
     .share-container {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 }
 @media screen and (max-device-width: 1000px) {
@@ -450,6 +454,11 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
         width: 320px;
     }
     .share-footer-store .share-footer-store-text {
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 640px) {
+    .share-event-img .btn-next, .share-event-img .btn-prev {
         display: none;
     }
 }
