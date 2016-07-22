@@ -343,6 +343,7 @@ body {
     left: 115px;
     right: 115px;
     text-align: center;
+    position: absolute;
 }
 .share-modal-nav .item {
     display: inline-block;
@@ -437,9 +438,6 @@ body.share-modal-show .share-modal, .share-modal-container .item.select {
     }
 }
 @media screen and (max-height: 550px) {
-    body {
-        overflow: inherit;
-    }
     .share-container {
         margin-bottom: 0;
     }

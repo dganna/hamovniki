@@ -236,8 +236,16 @@ jQuery(window).load(function () {
         slider.$slider.animate({"left": left + "px"});
     });
 
-    var minHeight = $(window).height() - 80 - $('.share-header').height() -$('.share-event').height() - $('.share-footer').height();
-    if (minHeight <= 62) {
+    var minHeight = $(window).height() - 80 - $('.share-header').height() - $('.share-event').height() - $('.share-footer').height();
+    var heightConst = 84;
+    if ($('.share-event-img img').size()) {
+        heightConst = 62;
+    }
+
+    if (minHeight <= heightConst) {
+        $('body').css({
+            'overflow': 'inherit'
+        });
         $('.share-comments').css({
             'display': 'none'
         });
@@ -249,17 +257,25 @@ jQuery(window).load(function () {
 
     $( window ).resize(function() {
         minHeight = $(window).height() - 80 - $('.share-header').height() -$('.share-event').height() -$('.share-footer').height();
-        if (minHeight <= 62) {
+        if (minHeight <= heightConst) {
+            $('body').css({
+                'overflow': 'inherit'
+            });
             $('.share-comments').css({
-                'display': 'none'
+                'display': 'none',
+                'height': minHeight + 'px'
             });
             $('.share-footer').css({
                 'position': 'relative',
                 'margin-top': '20px'
             });
         } else {
+            $('body').css({
+                'overflow': 'hidden'
+            });
             $('.share-comments').css({
-                'display': 'block'
+                'display': 'block',
+                'height': minHeight + 'px'
             });
             $('.share-footer').css({
                 'position': 'fixed',

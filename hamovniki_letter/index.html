@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Хамовники</title>
     <style>
-        a, div, td {
+        a, div, td, span {
             font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;
         }
         img {
@@ -14,49 +14,560 @@
             display: block;
             border: none;
         }
+        a {
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .unsub:hover {
+            color: #f00;
+        }
+        @media screen and (max-width: 800px) {
+            .mobile {
+                width: auto!important;
+                min-width: 320px;
+            }
+        }
 
     </style>
 </head>
 <body marginwidth="0" marginheight="0" style="margin: 0;padding: 0;-webkit-text-size-adjust: none;-ms-text-size-adjust: none;background-color: #f6f6f6;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;font-size: 12px;color: #000000;height: 100% !important;width: 100% !important;">
-
-<table align="center" height="100%" width="600" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="width: 600px;vertical-align: top;">
-        <tr>
-            <td width="600" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;">
-                <div style="background-color: #ffffff; border: 1px solid #dcdcdc;padding: 13px 16px;">
-                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;">
+<table align="center" height="100%" width="800" border="0" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="border: 0;width: 800px;vertical-align: top;" class="mobile">
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="margin-top: 32px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <img src="img/logo.png" width="165" height="36" border="0" alt="logo" style="outline: none;display: block;border: none;">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="color: #000000;font-size: 24px;margin: 40px 0 40px 0;text-align: center;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">Интересное на этой неделе</div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 24px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="margin: 0; padding: 0; width: 100%;">
                         <tr>
-                            <td valign="top" width="100%" style="margin: 0;padding: 0;">
+                            <td valign="top" width="100%" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
                                 <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0 0 13px 0;padding: 0;">
                                     <tr>
-                                        <td valign="top" width="30" style="margin: 0; padding:2px 0 0 0;">
-                                            <div>
-                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address">
+                                        <td valign="top" width="26" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address" style="outline: none;display: block;border: none;">
                                             </div>
                                         </td>
-                                        <td valign="top" style="color:#000000; font-size: 18px; font-weight: bold;margin: 0; padding: 0;">
-                                            Россия, Москва, Усачёва улица, 4
+                                        <td valign="top" style="color: #000000;font-size: 16px;line-height: 20px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            Сеченовский пер., 8с3
                                         </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                         <tr>
-                            <td valign="top" width="100%" style="color: #000000; font-size: 15px; font-weight: 400;">
-                                <div style="margin: 0 0 16px 0; padding: 0;">
-                                    Доброе утро, соседи! Денёк будет волшебным) если б ещё не работа...
+                            <td valign="top" width="100%" style="color: #000000;font-size: 15px;line-height: 20px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="margin: 0 0 18px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    На Остоженке 42 уже давно работает эта пекарня! Ребята, я не знаю, там так вкусно абсолютно всё. Хлеб, кофе, маффины, сендвичи, австрийские продукты, включая, конечно, цопф, вафли Manner, австрийскую воду, чай, травы и торт Sacher. Приходите туда!
                                 </div>
                             </td>
                         </tr>
                         <tr>
-                            <td valign="top" width="100%">
-
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0 0 16px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="230" style="width: 230px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/1.jpg" width="214" height="136" border="0" alt="image_1" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="230" style="width: 230px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/2.jpg" width="214" height="136" border="0" alt="image_2" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="230" style="width: 230px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/3.jpg" width="214" height="136" border="0" alt="image_3" style="outline: none;display: block;border: none;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="32" height="32" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/user1.jpg" width="32" height="32" border="0" alt="user1" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="250" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="250" style="width: 250px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        Vadim
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" height="16" align="left" style="color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        11 июля
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="80" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="80" style="width: 80px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" width="50" align="left" style="width: 50px;color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-comments.png" width="16" height="16" border="0" alt="comments" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="width: 34px;margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">12</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td valign="top" height="16" width="50" align="left" style="width: 50px;color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-megaphones.png" width="16" height="16" border="0" alt="megaphones" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">25</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
-                </div>
-            </td>
-        </tr>
-    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 24px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="margin: 0; padding: 0; width: 100%;">
+                        <tr>
+                            <td valign="top" width="100%" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0 0 13px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="26" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address" style="outline: none;display: block;border: none;">
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #000000;font-size: 16px;line-height: 20px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            ул. Остоженка, 53/2с8
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="color: #000000;font-size: 15px;line-height: 20px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="margin: 0 0 18px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    17 июля из района на метро будет не выбраться, закроют ветку с Парка до «Комсомольской» http://www.mos.ru/news/item/13039073
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="32" height="32" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/user2.jpg" width="32" height="32" border="0" alt="user2" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="250" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="250" style="width: 250px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        Иванна И.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" height="16" align="left" style="color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        13 июля
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="80" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="80" style="width: 80px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" width="50" align="left" style="width: 50px;color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-comments.png" width="16" height="16" border="0" alt="comments" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="width: 34px;margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">1</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td valign="top" height="16" width="50" align="left" style="width: 50px;color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-megaphones.png" width="16" height="16" border="0" alt="megaphones" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">30</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 24px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0; padding: 0; ">
+                        <tr>
+                            <td valign="top" width="100%" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0 0 13px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="26" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address" style="outline: none;display: block;border: none;">
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #000000;font-size: 16px;line-height: 20px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            Усачёва ул., 1с3А
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="color: #000000;font-size: 15px;line-height: 20px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="margin: 0 0 18px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    До окончания понедельника, 4 июля, и в первую половину ночи на вторник, 5 июля, в Хамовниках по-прежнему возмодны сильные осадки с градом и шквалистым ветром. Во вторник дневная температура упадёт на 9°C — до +20°C.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0 0 16px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="230" style="width: 230px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/4.jpg" width="214" height="136" border="0" alt="image_4" style="outline: none;display: block;border: none;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="32" height="32" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/user3.jpg" width="32" height="32" border="0" alt="user3" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="250" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="250" style="width: 250px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        Василий С.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" height="16" align="left" style="color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        14 июля
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="80" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="80" style="width: 80px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="16" width="50" align="left" style="width: 50px;color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-megaphones.png" width="16" height="16" border="0" alt="megaphones" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">17</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" height="94" align="center" width="100%" style="width: 100%;padding: 0;margin: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;"><img src="img/show_more.png" width="319" height="54" border="0" style="outline: none;display: block;border: none;"></a>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" align="center" width="100%" style="width: 100%;padding: 0;margin: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="color: #000000;font-size: 24px;text-align: center;margin: 0 0 40px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">Чем заняться на выходных</div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 24px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="margin: 0; padding: 0; width: 100%;">
+                        <tr>
+                            <td valign="top" width="100%" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0 0 13px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="26" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address" style="outline: none;display: block;border: none;">
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #000000;font-size: 16px;line-height: 20px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            ул. Остоженка, 53/2с8
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="color: #000000;font-size: 15px;line-height: 20px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="margin: 0 0 18px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    17 июля из района на метро будет не выбраться, закроют ветку с Парка до «Комсомольской» http://www.mos.ru/news/item/13039073
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="32" height="32" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/user2.jpg" width="32" height="32" border="0" alt="user2" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="250" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="250" style="width: 250px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        Иванна И.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" height="16" align="left" style="color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        13 июля
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="80" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="80" style="width: 80px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" width="50" align="left" style="width: 50px;color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-comments.png" width="16" height="16" border="0" alt="comments" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="width: 34px;margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">1</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td valign="top" height="16" width="50" align="left" style="width: 50px;color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-megaphones.png" width="16" height="16" border="0" alt="megaphones" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">30</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%" valign="top" align="center" style="margin: 0;padding: 0;vertical-align: top;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 24px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0; padding: 0; ">
+                        <tr>
+                            <td valign="top" width="100%" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0 0 13px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="26" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                <img src="img/arrow-top.png" width="16" height="16" border="0" alt="address" style="outline: none;display: block;border: none;">
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #000000;font-size: 16px;line-height: 20px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            Усачёва ул., 1с3А
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="color: #000000;font-size: 15px;line-height: 20px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="margin: 0 0 18px 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    До окончания понедельника, 4 июля, и в первую половину ночи на вторник, 5 июля, в Хамовниках по-прежнему возмодны сильные осадки с градом и шквалистым ветром. Во вторник дневная температура упадёт на 9°C — до +20°C.
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0 0 16px 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="230" style="width: 230px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/4.jpg" width="214" height="136" border="0" alt="image_4" style="outline: none;display: block;border: none;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="100%" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="margin: 0;padding: 0;">
+                                    <tr>
+                                        <td valign="top" width="32" height="32" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <img src="img/user3.jpg" width="32" height="32" border="0" alt="user3" style="outline: none;display: block;border: none;">
+                                        </td>
+                                        <td valign="top" width="250" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="left">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="250" style="width: 250px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="18" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        Василий С.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top" height="16" align="left" style="color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        14 июля
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td valign="top" width="80" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right">
+                                            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="80" style="width: 80px;margin: 0 ;padding: 0;">
+                                                <tr>
+                                                    <td valign="top" height="16" width="50" align="left" style="width: 50px;color: #999999;font-size: 13px;line-height: 16px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 4px 0 0 0;padding: 0;">
+                                                            <tr>
+                                                                <td valign="top" width="16" height="16" style="margin: 0;padding: 2px 0 0 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                        <img src="img/event-megaphones.png" width="16" height="16" border="0" alt="megaphones" style="outline: none;display: block;border: none;">
+                                                                    </div>
+                                                                </td>
+                                                                <td valign="top" align="left" width="34" style="color: #999999;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                                                    <div style="margin: 0 0 0 6px;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">17</div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="background-color: #ffffff;border: 1px solid #dcdcdc;padding: 15px 32px;margin: 0 0 24px 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">
+                    <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" style="width: 100%;margin: 0;padding: 0;">
+                        <tr>
+                            <td valign="top" width="76" align="left" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <div style="font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                    <img src="img/app-icon.png" width="60" height="60" border="0" alt="app" style="outline: none;display: block;border: none;">
+                                </div>
+                            </td>
+                            <td valign="top" style="color: #000000;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="450" style="width: 450px;margin: 4px 0 0 0 ;padding: 0;">
+                                    <tr>
+                                        <td valign="top" height="18" align="left" style="color: #000000;font-size: 16px;line-height: 22px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <b>В Хамовниках</b> для iOS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" align="left" style="color: #000000;font-size: 15px;line-height: 18px;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                                            <div style="margin: 5px 0 0 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">Держит в курсе того, что происходит в районе</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td valign="top" style="color: #000000;margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;" align="right" width="147">
+                                <div style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;"><img src="img/appStore.png" width="147" height="68" border="0" alt="app" style="outline: none;display: block;border: none;"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top" width="100%" align="center" style="margin: 0;padding: 0;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+            <div style="margin: 40px 0 40px 0;padding: 0;text-align: center;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">
+                <a href="#" class="unsub" style="color: #669;padding: 0 20px 0 0;font-size: 16px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;cursor: pointer;text-decoration: none;">Отписаться</a>
+                <span style="color: #999;font-size: 16px;font-family: Arial, Helvetica, Verdana, Tahoma sans-serif;">© Яндекс</span>
+            </div>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
